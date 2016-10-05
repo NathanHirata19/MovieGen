@@ -19,6 +19,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         answerText = (TextView) findViewById(R.id.answerText);
-        answerText.setText("try again");
+        answerText.setText(Generator.get().getGenerator());
     }
 }
