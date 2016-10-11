@@ -15,5 +15,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/answerText"
         />
-
+<uses-permission android:name="android.permission.INTERNET"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/answerText"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="168dp" />
 </RelativeLayout>
