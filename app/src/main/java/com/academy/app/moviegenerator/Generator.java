@@ -7,7 +7,7 @@ public class Generator {
 
     private Generator() {
     answers = new String[] {
-        "idk ask again"
+        "liflsjdfj"
     };
     }
     public static Generator get() {
@@ -18,6 +18,7 @@ public class Generator {
     return generator;
     };
     public String getGenerator(){
+
         return answers[0];
     }
 }
