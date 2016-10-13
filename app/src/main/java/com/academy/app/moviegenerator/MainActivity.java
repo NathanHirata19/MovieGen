@@ -41,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
             toast.show();
             mediaPlayer.start();
 
+            String mainActivity = Generator.get().getGenerator();
+
+            answerText.setText(mainActivity);
+
         }
     }
         @Override
